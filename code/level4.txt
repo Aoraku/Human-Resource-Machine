@@ -1,0 +1,16 @@
+15
+copyfrom 3
+copyto 2
+inbox
+copyto 1
+inbox
+copyto 0
+copyfrom 1
+sub 0
+jumpifnegative 13
+copyto 1
+bump+ 2
+jump 7
+copyfrom 2
+outbox
+jump 1
